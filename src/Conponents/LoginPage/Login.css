@@ -1,0 +1,10 @@
+.container {
+    min-height: 100dvh;
+  
+    place-content: center;
+}
+
+.Login_form_tag {
+    min-height: 300px;
+   
+}
