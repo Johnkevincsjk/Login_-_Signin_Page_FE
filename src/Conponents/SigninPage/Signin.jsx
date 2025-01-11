@@ -27,7 +27,7 @@ export default function Signin() {
                     </button>
                 </form>
                 <div className='login_page_footer flex flex-row justify-center items-center'>
-                    <p className='font-bold m-2'>Already an User?</p> <Link className='hover:text-blue-900' to={'/'}>Log-in</Link>
+                    <p className='font-bold m-2'>Already an User?</p> <Link className='text-blue-600 hover:text-blue-900  hover:underline' to={'/'}>Log-in</Link>
 
                 </div>
             </div>

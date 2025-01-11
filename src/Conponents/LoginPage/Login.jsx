@@ -14,9 +14,13 @@ export default function Login() {
                         Log-in
                     </button>
                 </form>
-                <div className='login_page_footer flex flex-row justify-center items-center'>
-                    <p className='font-semibold m-2 text-sm'>Don't have an account?</p> <Link className='hover:text-blue-900' to={'/Signin'}>Create an account</Link>
+                <div className='login_page_footer grid grid-flow-row grid-rows-2 gap-2'>
+                    <div className='flex justify-center items-center gap-4'>
+                        <p className='font-semibold text-sm'>Don't have an account?</p>
+                        <Link className='text-blue-600 hover:underline hover:text-blue-900' to={'/Signin'}>Create an account</Link>
+                    </div>
 
+                    <p className='text-blue-600 hover:text-blue-900  hover:underline'>Forgotten password?</p>
                 </div>
             </div>
         </div>
